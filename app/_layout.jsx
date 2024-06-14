@@ -30,7 +30,8 @@ export default function RootLayout() {
       <Stack screenOptions={{
       headerShown: false,
     }}>
-      <Stack.Screen name="(tabs)"/>
+      <Stack.Navigator name="(tabs)"/>
+      
     </Stack>
       </SignedIn>
       <SignedOut>

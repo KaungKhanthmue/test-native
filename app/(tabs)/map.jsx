@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function explore() {
+const map = () => {
   return (
     <View>
-      <Text>explore</Text>
+      <Text>map</Text>
     </View>
   )
 }
+
+export default map
